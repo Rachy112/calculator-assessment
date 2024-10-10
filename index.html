@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator Assignment</title>
+</head>
+<body>
+    <main>
+        <h1>Calculator Project</h1>
+        <form action="" onsubmit="return false">
+
+            <input type="number" placeholder="Enter a value 1" id="firstInput" required>
+
+            <select name="operator" id="operator">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+                <option value="divide">/</option>
+                <option value="multiply">*</option>
+                <option value="exponential">**</option>
+            </select>
+
+            <input type="number" placeholder="Enter a value 2" id="secondInput" required><br><br>
+
+            <button type="submit" onclick="calculator()">Submit</button><br>
+
+
+            <h2 id="result">Result : 0</h2>
+
+    
+    </main>
+
+    <script src="/calculator.js"></script>
+</body>
+</html>
